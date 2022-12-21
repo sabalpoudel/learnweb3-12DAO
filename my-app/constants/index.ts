@@ -366,7 +366,7 @@ export const NFT_CONTRACT_ABI = [
       },
       {
         internalType: "bytes",
-        name: "_data",
+        name: "data",
         type: "bytes",
       },
     ],
@@ -582,7 +582,7 @@ export const NFT_CONTRACT_ABI = [
   },
 ];
 export const NFT_CONTRACT_ADDRESS =
-  "0xF8c473Cfb243Eb5Fa7c58E409d82FA106d8087ec";
+  "0x930b247311A551f2979062C09337F1396Bd0534E";
 export const CRYPTO_DEV_DAO_ABI = [
   {
     inputs: [
@@ -771,4 +771,4 @@ export const CRYPTO_DEV_DAO_ABI = [
   },
 ];
 export const CRYPTO_DEV_DAO_CONTRACT_ADDRESS =
-  "0x93D2AD9b8B900755F5737522D9E11A96761510cD";
+  "0xA9F4C79B6E50F5E718aF484b54a686860e8eb4f6";
