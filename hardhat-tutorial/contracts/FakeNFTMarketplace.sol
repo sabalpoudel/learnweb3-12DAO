@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract FakeNFTMarketplace {
     /// @dev Maintain a mapping of Fake TokenID to Owner addresses
     mapping(uint256 => address) public tokens;
-    uint256 nftPrice = 0.01 ether;
+    uint256 nftPrice = 0.001 ether;
 
     /// @dev purchase() accepts ETH and marks the owner of the given tokenId as the caller address
     /// @param _tokenId - the fake NFT token Id to purchase
